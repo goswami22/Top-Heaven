@@ -1,0 +1,651 @@
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      crossorigin="anonymous">
+    <!-- slidder css link -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Top Heaven Responsive</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-toggle="100">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" class="img-fluid" alt="logo"><span>
+            TopHeaven</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img src="./assets/images/toggle-btn.png" alt="toggle button"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Agent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <a href="#" class="main-btn">Create Account</a>
+        </div>
+      </div>
+    </nav>
+    <!-- end Header -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="hero-img">
+              <img src="./assets/images/hero-img.png" class="img-fluid" alt="hero images">
+            </div>
+          </div>
+          <div class="col-lg-6 hero-right-content">
+            <div class="hero-content">
+              <h1>Find <span>Your</span> Dream <span>House</span> With Your Family</h1>
+            </div>
+            <div class="hero-nav">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                    type="button" role="tab" aria-controls="rent" aria-selected="true">Rent</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="buy" aria-selected="false">Buy</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages"
+                    type="button" role="tab" aria-controls="sell" aria-selected="false">Sell</button>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="row g-0">
+                    <div class="col-4 border-end">
+                      <small>Location</small>
+                      <h5>Pune</h5>
+                    </div>
+                    <div class="col-4 border-end">
+                      <small>Home Type</small>
+                      <h5>Delux</h5>
+                    </div>
+                    <div class="col-4">
+                      <small>Price Range</small>
+                      <h5>50k - 1L</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="row g-0">
+                    <div class="col-4 border-end">
+                      <small>Location</small>
+                      <h5>Pune</h5>
+                    </div>
+                    <div class="col-4 border-end">
+                      <small>Home Type</small>
+                      <h5>Delux</h5>
+                    </div>
+                    <div class="col-4">
+                      <small>Price Range</small>
+                      <h5>60k - 1L</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+                  <div class="row g-0">
+                    <div class="col-4 border-end">
+                      <small>Location</small>
+                      <h5>Pune</h5>
+                    </div>
+                    <div class="col-4 border-end">
+                      <small>Home Type</small>
+                      <h5>Delux</h5>
+                    </div>
+                    <div class="col-4">
+                      <small>Price Range</small>
+                      <h5>70k - 1L</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="main-btn">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- clients -->
+    <section id="client" class="client">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="cilent-img-box">
+              <img src="./assets/images/client1.png" class="img-fluid" alt="client 1">
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="cilent-img-box">
+              <img src="./assets/images/client2.png" class="img-fluid" alt="client 2">
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
+            <div class="cilent-img-box">
+              <img src="./assets/images/client3.png" class="img-fluid" alt="client 3">
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
+            <div class="cilent-img-box">
+              <img src="./assets/images/client4.png" class="img-fluid" alt="client 4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end clients -->
+
+    <!-- about us -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-img position-relative">
+              <img src="./assets/images/about-back.png" class="img-fluid" alt="">
+              <img src="./assets/images/about.png" class="img-fluid front-img" alt="about image">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h6>About Us</h6>
+              <h2>We can Provide Top <span> Real Estate</span> Properties</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum enim ad
+                minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+            </div>
+            <div class="btn-box">
+              <a href="" class="main-btn">Learn More</a>
+              <a href="" class="outline-btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about us -->
+
+    <!-- property section -->
+    <section id="property" class="property">
+      <div class="container">
+        <h2 class="title">This is Our Most Popular <span>Trending Property</span></h2>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex commodo consequat</p>
+      </div>
+      <!-- slider -->
+      <div class="property-list">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card card-1 mx-auto border-0" style="width: 18rem;">
+              <img src="./assets/images/Property 1.png" class="card-img-top" alt="property 1">
+              <div class="card-body px-0 ">
+                <div class="title-area">
+                  <h6 class="card-title">₹ 20,000/-</h6>
+                  <img src="./assets/images/star.png" alt="">
+                </div>
+                <p class="card-text1">South West Corner Property Number 1001</p>
+                <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                <div class="card-footer-area">
+                  <img src="./assets/images/card-icon1.png" alt="">
+                  <small>3 bed</small>
+                  <img src="./assets/images/card-icon2.png" alt="">
+                  <small>2 bath</small>
+                  <img src="./assets/images/card-icon3.png" alt="">
+                  <small>2000 sq ft</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card-1 mx-auto border-0" style="width: 18rem;">
+              <img src="./assets/images/Property 2.png" class="card-img-top" alt="property 1">
+              <div class="card-body px-0 ">
+                <div class="title-area">
+                  <h6 class="card-title">₹ 70,000/-</h6>
+                  <img src="./assets/images/star.png" alt="">
+                </div>
+                <p class="card-text1">South West Corner Property Number 1001</p>
+                <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                <div class="card-footer-area">
+                  <img src="./assets/images/card-icon1.png" alt="">
+                  <small>3 bed</small>
+                  <img src="./assets/images/card-icon2.png" alt="">
+                  <small>2 bath</small>
+                  <img src="./assets/images/card-icon3.png" alt="">
+                  <small>2000 sq ft</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card-1 mx-auto border-0" style="width: 18rem;">
+              <img src="./assets/images/Property 3.png" class="card-img-top" alt="property 1">
+              <div class="card-body px-0 ">
+                <div class="title-area">
+                  <h6 class="card-title">₹ 70,000/-</h6>
+                  <img src="./assets/images/star.png" alt="">
+                </div>
+                <p class="card-text1">South West Corner Property Number 1001</p>
+                <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                <div class="card-footer-area">
+                  <img src="./assets/images/card-icon1.png" alt="">
+                  <small>3 bed</small>
+                  <img src="./assets/images/card-icon2.png" alt="">
+                  <small>2 bath</small>
+                  <img src="./assets/images/card-icon3.png" alt="">
+                  <small>2000 sq ft</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card card-1 mx-auto border-0" style="width: 18rem;">
+              <img src="./assets/images/Property 2.png" class="card-img-top" alt="property 1">
+              <div class="card-body px-0 ">
+                <div class="title-area">
+                  <h6 class="card-title">₹ 70,000/-</h6>
+                  <img src="./assets/images/star.png" alt="">
+                </div>
+                <p class="card-text1">South West Corner Property Number 1001</p>
+                <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                <div class="card-footer-area">
+                  <img src="./assets/images/card-icon1.png" alt="">
+                  <small>3 bed</small>
+                  <img src="./assets/images/card-icon2.png" alt="">
+                  <small>2 bath</small>
+                  <img src="./assets/images/card-icon3.png" alt="">
+                  <small>2000 sq ft</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end slider -->
+    </section>
+    <!-- end property section -->
+
+    <!-- work section start  -->
+
+    <section id="work" class="work">
+      <div class="container">
+        <h2>This is How it <span>Works</span></h2>
+        <div class="row">
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="card card1">
+              <div class="d-flex">
+                <div class="flex-shrink-0 card-img-box1">
+                  <img src="./assets/images/w-icon1.png" alt="search icon">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h5>We Always Search Your Demands</h5>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+              <a href="#" class="text-end">Read More.... </a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="card card2">
+              <div class="d-flex">
+                <div class="flex-shrink-0 card-img-box2">
+                  <img src="./assets/images/w-icon2.png" alt="search icon">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h5>We Always Focus On Quality</h5>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+              <a href="#" class="text-end">Read More.... </a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="card card3">
+              <div class="d-flex">
+                <div class="flex-shrink-0 card-img-box3">
+                  <img src="./assets/images/w-icon3.png" alt="search icon">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h5>Book Your Dream House Property</h5>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+              <a href="#" class="text-end">Read More.... </a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="card card4 ">
+              <div class="d-flex">
+                <div class="flex-shrink-0 card-img-box4">
+                  <img src="./assets/images/w-icon4.png" alt="search icon">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h5>Enjoy Your New Home With Family</h5>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+              <a href="#" class="text-end">Read More.... </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end work section  -->
+
+    <!--  Recent Properties secition start -->
+    <div id="new-property" class="new-property">
+      <div class="container">
+        <h2 class="mx-auto title">This is Our Recent <span>Properties</span></h2>
+        <p class="mx-auto sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat</p>
+        <div class="property-list">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card card-1 mx-auto border-0" style="width: 18rem;">
+                <img src="./assets/images/Property 4.png" class="card-img-top" alt="property 1">
+                <div class="card-body px-0 ">
+                  <div class="title-area">
+                    <h6 class="card-title">₹ 80,000/-</h6>
+                    <img src="./assets/images/star.png" alt="">
+                  </div>
+                  <p class="card-text1">South West Corner Property Number 1001</p>
+                  <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                  <div class="card-footer-area">
+                    <img src="./assets/images/card-icon1.png" alt="">
+                    <small>3 bed</small>
+                    <img src="./assets/images/card-icon2.png" alt="">
+                    <small>2 bath</small>
+                    <img src="./assets/images/card-icon3.png" alt="">
+                    <small>2000 sq ft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card card-2 mx-auto border-0" style="width: 18rem;">
+                <img src="./assets/images/Property 5.png" class="card-img-top" alt="property 1">
+                <div class="card-body px-0 ">
+                  <div class="title-area">
+                    <h6 class="card-title">₹ 70,000/-</h6>
+                    <img src="./assets/images/star.png" alt="">
+                  </div>
+                  <p class="card-text1">South West Corner Property Number 1001</p>
+                  <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                  <div class="card-footer-area">
+                    <img src="./assets/images/card-icon1.png" alt="">
+                    <small>3 bed</small>
+                    <img src="./assets/images/card-icon2.png" alt="">
+                    <small>2 bath</small>
+                    <img src="./assets/images/card-icon3.png" alt="">
+                    <small>2000 sq ft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card card-3 mx-auto border-0" style="width: 18rem;">
+                <img src="./assets/images/Property 6.png" class="card-img-top" alt="property 1">
+                <div class="card-body px-0 ">
+                  <div class="title-area">
+                    <h6 class="card-title">₹ 70,000/-</h6>
+                    <img src="./assets/images/star.png" alt="">
+                  </div>
+                  <p class="card-text1">South West Corner Property Number 1001</p>
+                  <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                  <div class="card-footer-area">
+                    <img src="./assets/images/card-icon1.png" alt="">
+                    <small>3 bed</small>
+                    <img src="./assets/images/card-icon2.png" alt="">
+                    <small>2 bath</small>
+                    <img src="./assets/images/card-icon3.png" alt="">
+                    <small>2000 sq ft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card card-4 mx-auto border-0" style="width: 18rem;">
+                <img src="./assets/images/Property 7.png" class="card-img-top" alt="property 1">
+                <div class="card-body px-0 ">
+                  <div class="title-area">
+                    <h6 class="card-title">₹ 50,000/-</h6>
+                    <img src="./assets/images/star.png" alt="">
+                  </div>
+                  <p class="card-text1">South West Corner Property Number 1001</p>
+                  <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                  <div class="card-footer-area">
+                    <img src="./assets/images/card-icon1.png" alt="">
+                    <small>3 bed</small>
+                    <img src="./assets/images/card-icon2.png" alt="">
+                    <small>2 bath</small>
+                    <img src="./assets/images/card-icon3.png" alt="">
+                    <small>2000 sq ft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card card-5 mx-auto border-0" style="width: 18rem;">
+                <img src="./assets/images/Property 8.png" class="card-img-top" alt="property 1">
+                <div class="card-body px-0 ">
+                  <div class="title-area">
+                    <h6 class="card-title">₹ 40,000/-</h6>
+                    <img src="./assets/images/star.png" alt="">
+                  </div>
+                  <p class="card-text1">South West Corner Property Number 1001</p>
+                  <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                  <div class="card-footer-area">
+                    <img src="./assets/images/card-icon1.png" alt="">
+                    <small>3 bed</small>
+                    <img src="./assets/images/card-icon2.png" alt="">
+                    <small>2 bath</small>
+                    <img src="./assets/images/card-icon3.png" alt="">
+                    <small>2000 sq ft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card card-6 mx-auto border-0" style="width: 18rem;">
+                <img src="./assets/images/Property 9.png" class="card-img-top" alt="property 1">
+                <div class="card-body px-0 ">
+                  <div class="title-area">
+                    <h6 class="card-title">₹ 60,000/-</h6>
+                    <img src="./assets/images/star.png" alt="">
+                  </div>
+                  <p class="card-text1">South West Corner Property Number 1001</p>
+                  <p class="card-text2">Alan Street, Frank Talkies St. Naykome......</p>
+                  <div class="card-footer-area">
+                    <img src="./assets/images/card-icon1.png" alt="">
+                    <small>3 bed</small>
+                    <img src="./assets/images/card-icon2.png" alt="">
+                    <small>2 bath</small>
+                    <img src="./assets/images/card-icon3.png" alt="">
+                    <small>2000 sq ft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="" class="main-btn mx-auto">Explore All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Recent Properties secition -->
+
+    <!-- comment section start -->
+    <section id="comment" class="comment text-center">
+      <div class="container">
+        <h2>What People Say <span>About Us</span></h2>
+
+        <div class="row">
+          <div class="comment-slider">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <!-- 2nd item -->
+                <div class="card mb-3">
+                  <div class="comment-card-content">
+                    <div class="left-content">
+                      <img src="./assets/images/person 1.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="right-content">
+                      <img src="./assets/images/double-quotes.png" class="img-fluid double-quotes" alt="">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore er adipiscing elit, sed do eiusmod tempor incididunt ut labore er
+                        adipiscing eliore e</p>
+                      <h6 class="card-title">Rachel Green</h6>
+                      <p class="card-subtext"><i>CEO, Central Park Coffee</i></p>
+                      <hr class="underline">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <!-- 2nd item -->
+                <div class="card mb-3">
+                  <div class="comment-card-content">
+                    <div class="left-content">
+                      <img src="./assets/images/person 2.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="right-content">
+                      <img src="./assets/images/double-quotes.png" class="img-fluid double-quotes" alt="">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore er adipiscing elit, sed do eiusmod tempor incididunt ut labore er
+                        adipiscing eliore e</p>
+                      <h6 class="card-title">Ross Galler</h6>
+                      <p class="card-subtext"><i>CEO, Central Park Coffee</i></p>
+                      <hr class="underline">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- query section start -->
+    <section id="query" class="query">
+      <div class="container">
+        <div class="query-img-box">
+          <img src="./assets/images/image 22.png" class="message-icon" alt="">
+          <img src="./assets/images/image 23.png" class="arrow-icon" alt="">
+        </div>
+        <h2>You Can Ask Anything....!!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, </p>
+        <div class="input-box">
+          <input type="text" class="form-control" placeholder="Enter Your Email Id here....................">
+          <button class="btn main-btn ">submit</button>
+        </div>
+      </div>
+    </section>
+    <!-- end query section -->
+
+    <!-- footer  -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 col-md-12 order-lg-0 order-sm-4">
+            <div class="footer-logo">
+              <img src="./assets/images/logo.png" alt="">
+              <span>TopHeaven</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore er
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore er adipiscing eliore e</p>
+            <div class="footer-social">
+              <a href="#"><img src="./assets/images/image 25.png" alt="facebook"></a>
+              <a href="#"><img src="./assets/images/image 26.png" alt="Twitter"></a>
+              <a href="#"><img src="./assets/images/image 27.png" alt="instagram"></a>
+              <a href="#"><img src="./assets/images/image 28.png" alt="message"></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-4 order-lg-1 order-sm-1">
+            <div class="footer-menu">
+              <h5>Quick Access</h5>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Property</a></li>
+                <li><a href="#">Agent</a></li>
+                <li><a href="#">Testimonial</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-4 order-lg-2 order-sm-2">
+            <div class="footer-services">
+              <h5>Services</h5>
+              <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-md-4 order-lg-3 order-sm-3">
+            <h5>Contact Us</h5>
+            <div class="footer-contact">
+              <ul>
+                <li><img src="./assets/images/image 29.png" alt=""><span>+91 1122334455</span></li>
+                <li><img src="./assets/images/image 30.png" alt=""><span>help.topheaven.com</span></li>
+                <li><img src="./assets/images/image 31.png" alt=""><span class="f-span">32, Alan Street, Wolf gvt,
+                    Stanfolr 458620</span></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- <script src="./assets/js/owl.carousel.js"></script> -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+  </body>
+
+  </html>

@@ -1,0 +1,603 @@
+@media screen and (min-width: 320px) and (max-width:575.9px) {
+
+    h2,
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+    #navbar {
+        margin: 40px auto 30px;
+    }
+
+    .navbar .navbar-brand img {
+        max-width: 25px;
+        height: 30px;
+        margin-right: 12px;
+    }
+
+    #navbar .navbar-brand span {
+        font-size: 18px;
+    }
+
+    .navbar #navbarNav {
+        margin-top: 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active::after,
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 25%;
+    }
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .show>.nav-link {
+        margin-bottom: 15px;
+    }
+
+    #hero .hero-img img {
+        width: 100%;
+        height: auto;
+        margin-top: -30px;
+    }
+
+    #hero .hero-content {
+        margin-top: 10px;
+    }
+
+    #hero h1 {
+        height: 80px;
+        margin-bottom: 0;
+    }
+
+    #hero .hero-nav {
+        float: none;
+    }
+
+    #hero .nav-tabs {
+        border: none !important;
+        margin-bottom: -12px;
+        margin-left: 11px;
+    }
+
+    #hero .col-4 {
+        padding: 12px 0px;
+    }
+
+    #hero .nav-item {
+        margin-right: 25px;
+    }
+
+    #hero .tab-content {
+        padding: 16px 22px 100px 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(34, 134, 254, 0.2);
+        border-radius: 20px;
+        max-width: 364px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 50%);
+        z-index: 999;
+    }
+
+    #hero .border-end {
+        border-right: none !important;
+    }
+
+    #hero h5 {
+        margin-top: 10px;
+    }
+
+    #hero .nav-link {
+        margin-top: 27px;
+    }
+
+    #hero .main-btn {
+        width: 169px;
+        height: 40px;
+        right: 16px;
+        bottom: 32px;
+    }
+
+    #client {
+        margin: 268px auto 52px;
+    }
+
+    #client .col-md-6 {
+        width: 50%;
+    }
+
+    #client .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about .front-img {
+        left: 70px;
+        top: 62px;
+    }
+
+    #about img {
+        width: 257px;
+        height: 249px;
+    }
+
+    #about h6 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    #about .about-content {
+        margin-top: 75px;
+    }
+
+    #about h2 {
+        margin: -15px auto 25px;
+    }
+
+    #property {
+        margin: 56px auto 57px;
+        position: relative;
+    }
+
+    #property .owl-theme .owl-nav {
+        position: absolute;
+        left: 50%;
+        top: 105%;
+        transform: translateX(-50%);
+    }
+
+    #property button.owl-prev,
+    #property button.owl-next {
+        width: 31px;
+        height: 31px;
+        line-height: 31px !important;
+    }
+
+    #property button.owl-prev {
+        margin-right: 20px;
+    }
+
+    #work h2 {
+        margin-bottom: 32px;
+    }
+
+    #work h5 {
+        width: 100%;
+        height: 64px;
+    }
+
+    #work .card {
+        margin: 0px auto 40px;
+        max-width: 310px;
+    }
+
+    #work p {
+        width: 100% !important;
+        height: 112px !important;
+        padding: 10px 0;
+    }
+
+    #new-property h2 {
+        text-align: start;
+        width: 364px;
+        height: 79px;
+        margin: -82px 0 65px 0;
+    }
+
+    #new-property p.sub-title {
+        display: none;
+    }
+
+    #new-property .card-4,
+    #new-property .card-5,
+    #new-property .card-6 {
+        display: none;
+    }
+
+    #new-property .card {
+        margin-bottom: 40px;
+    }
+
+    #new-property .main-btn {
+        margin: 0px auto 56px;
+    }
+
+    #comment {
+        margin-bottom: 59px;
+    }
+
+    #comment h2 {
+        max-width: 268px;
+        height: 81px;
+        text-align: start;
+        margin: 0 0 40px 16px;
+    }
+
+    /* #comment .item {
+        width: 530px !important;
+        transform: translateX(15.5%) !important;
+    } */
+    #comment .card {
+        padding: 24px 15px 32px 16px;
+        max-width: 642px !important;
+        height: auto;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+
+    #comment .card img {
+        max-width: 119px;
+        height: 175px;
+    }
+
+    #comment img.double-quotes {
+        max-width: 58px;
+        height: 58px;
+        left: 132px;
+        top: 15px;
+    }
+
+    #comment p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--lightblack);
+        margin: 0px 0px 30px 15px;
+        text-align: justify;
+        max-width: 198px;
+    }
+
+    #comment h6 {
+        margin-left: 15px;
+    }
+
+    #comment hr.underline {
+        width: 110px;
+        height: 8px;
+        background-color: var(--blue);
+        opacity: 1;
+        margin-left: 15px;
+    }
+
+    #comment .item {
+        width: 364px !important;
+        transform: none !important;
+        margin: auto;
+    }
+
+    #comment button.owl-prev,
+    #comment button.owl-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px !important;
+        color: var(--white);
+        font-size: 31px !important;
+    }
+
+    #comment button.owl-prev span,
+    button.owl-next span {
+        color: var(--white) !important;
+        font-size: 31px !important;
+    }
+
+    #query {
+        width: 364px;
+        padding: 29px 16px 88px;
+        margin: 0 auto 48px auto;
+    }
+
+    #query h2 {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 40px;
+        width: auto;
+    }
+
+    #query p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 127px;
+        width: 332px;
+        height: 96px;
+    }
+
+    #query .message-icon {
+        position: absolute;
+        left: 72.62px;
+        top: 177px;
+    }
+
+    #query .arrow-icon {
+        position: absolute;
+        left: 45px;
+        top: 209px;
+    }
+
+    #query .input-box {
+        left: 0;
+        width: auto;
+    }
+
+    #query input.form-control {
+        width: 100%;
+        /* max-width: 332px; */
+        height: 56px;
+        padding-left: 30px;
+    }
+
+    #query .main-btn {
+        position: absolute;
+        right: 0px;
+        top: 73px;
+    }
+
+    footer {
+        padding: 40px 16px 100px;
+    }
+
+    footer .col-sm-6 {
+        width: 50%;
+        margin: 80px auto 30px;
+    }
+
+    .footer-social {
+        margin-top: 40px;
+    }
+
+}
+
+/*  end Mobile query  */
+
+/* ipad query */
+@media screen and (min-width:768px) and (max-width:991.9px) {
+
+    .navbar-light .navbar-nav .nav-link.active::after,
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 12%;
+    }
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .show>.nav-link {
+        margin-bottom: 15px;
+    }
+
+    .navbar #navbarNav {
+        margin-top: 15px;
+    }
+
+    #hero {
+        margin: 50px auto 0px;
+    }
+    #hero .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+    #hero .tab-content {
+        width: 565px;
+    }
+
+    #about h6 {
+        margin-top: 110px;
+    }
+
+    #property {
+        margin: 100px auto;
+    }
+
+    #property .owl-theme .owl-nav {
+        margin-top: 32px !important;
+    }
+
+    #new-property .card-3,
+    #new-property .card-4,
+    #property .card-4 #property .card-5,
+    #property .card-6 {
+        margin-top: 72px !important;
+    }
+
+    #comment {
+        margin-bottom: 79px;
+    }
+
+    #query h2 {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        width: auto;
+    }
+
+    #query input.form-control {
+        width: 100%;
+        /* max-width: 332px; */
+        height: 56px;
+        padding-left: 30px;
+    }
+
+    #query .input-box {
+        position: relative;
+        left: -12px;
+        width: 540px;
+    }
+
+    #query .main-btn {
+        position: absolute;
+        right: 24px;
+        top: 8px;
+    }
+}
+
+/*  end ipad query  */
+
+
+/* ipad Pro query */
+@media screen and (min-width:992px) and (max-width:1199.9px) {
+    .navbar .navbar-brand img {
+        max-width: 55px;
+        height: auto;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin: auto 14px;
+    }
+
+    #navbar .navbar-brand span {
+        font-size: 17px;
+    }
+
+    .navbar .main-btn {
+        max-width: 185px;
+        height: 38px;
+    }
+
+    #hero .hero-img img {
+        max-width: 568px !important;
+        height: 385px;
+    }
+
+    #hero .hero-content {
+        margin-top: 35px;
+    }
+
+    #hero h1 {
+        font-size: 38px;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+
+    #hero .tab-content {
+        padding: 12px 22px 69px 26px;
+        width: 385px;
+    }
+
+    #hero .nav-item {
+        margin-right: 25px;
+        line-height: 7px;
+    }
+
+    #hero .col-4 {
+        padding: 0 22px;
+    }
+
+    #hero .main-btn {
+        width: 114px;
+        height: 35px;
+        bottom: 17px;
+    }
+
+    #client {
+        margin: 56px auto 66px;
+    }
+
+    .about-img {
+        width: 363px;
+    }
+
+    #about .front-img {
+        left: 75px;
+        top: 71px;
+    }
+
+    #about .about-content {
+        margin-top: 26px;
+    }
+
+    #about h6 {
+        font-size: 14px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 31.5px;
+        line-height: 47px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 13.5px;
+    }
+
+    #about .btn-box {
+        margin-top: 25px;
+    }
+
+    #property {
+        margin: 105px auto 95px;
+    }
+
+    #work h5 {
+        width: 250px;
+    }
+
+    #work p {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    #work {
+        margin: 0 auto 112px;
+    }
+
+    #comment .item {
+        width: 450px !important;
+        transform: translateX(1%) !important;
+    }
+
+    #comment .card {
+        padding: 24px 24px 32px;
+    }
+
+    #comment img.double-quotes {
+        width: 94px !important;
+        height: 94px;
+    }
+
+    #comment p {
+        margin: 15px 27px 24px 24px;
+    }
+
+    #comment p {
+        line-height: 25px;
+        margin: 15px 32px 16px 32px;
+        letter-spacing: 0.1px;
+        width: 189px;
+    }
+
+    #comment h6 {
+        margin: 0px 0px 5px 32px;
+    }
+
+    #comment .card-subtext {
+        text-align: start;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    #comment .card-subtext {
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 24px;
+    }
+
+    footer p {
+        font-size: 12.7px;
+    }
+
+    footer .footer-social {
+        margin-top: 64px;
+    }
+
+    footer .footer-social a img {
+        margin-right: 20px;
+    }
+
+}
+
+/*  end ipad Pro query  */
