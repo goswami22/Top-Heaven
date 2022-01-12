@@ -250,7 +250,7 @@
         color: var(--lightblack);
         margin: 0px 0px 30px 15px;
         text-align: justify;
-        max-width: 198px;
+        max-width: 175px;
     }
 
     #comment h6 {
@@ -266,7 +266,7 @@
     }
 
     #comment .item {
-        width: 364px !important;
+        width: 335px !important;
         transform: none !important;
         margin: auto;
     }
