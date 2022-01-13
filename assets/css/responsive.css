@@ -304,20 +304,20 @@
         font-size: 14px;
         line-height: 25px;
         margin-bottom: 127px;
-        width: 332px;
+        width: auto;
         height: 96px;
     }
 
     #query .message-icon {
         position: absolute;
-        left: 72.62px;
+        left: 38.62px;
         top: 177px;
     }
 
     #query .arrow-icon {
         position: absolute;
         left: 45px;
-        top: 209px;
+        top: 226px;
     }
 
     #query .input-box {
